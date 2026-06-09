@@ -1,0 +1,32 @@
+@charset "UTF-8";
+ body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #555;
+        }
+        p {
+            color: #666;
+            line-height: 1.5;
+        }
+        #princial {
+            color: #007BFF;
+            text-align: center;
+        }
+        .aprendendo {
+            color: #28A745;
+            font-style: italic;
+        }
+        .basico {
+            color: #FFC107;
+        }
+        .intermediario {
+            color: #5d00fe;
+        }
+        .avancado {
+            color: #DC3545;
+        }

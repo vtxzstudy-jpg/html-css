@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo class</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        div {
+            background-color: lightblue;
+            text-align: center; 
+        }
+        div > ul {
+            display: none;
+            background-color: lightsalmon;
+                list-style-type: none;
+                padding: 10px;
+                margin: 0;
+        }
+        div:hover > ul {
+            display: block;
+           
+        }
+    </style>
+</head>
+<body>
+    <h1>Pseudo classes</h1>
+    <p>As pseudo classes são usadas para definir um estado especial de um elemento. Elas são precedidas por dois pontos (:) e podem ser usadas para estilizar elementos com base em seu estado, posição ou relação com outros elementos.</p>
+    <div>Passe o mouse aqui para ver exemplos de pseudo classes
+        <ul>
+            <li><code>:hover</code> - Aplica estilos quando o mouse está sobre o elemento.</li>
+            <li><code>:active</code> - Aplica estilos quando o elemento está sendo clicado.</li>
+            <li><code>:focus</code> - Aplica estilos quando o elemento está em foco (por exemplo, um campo de formulário).</li>
+            <li><code>:nth-child(n)</code> - Aplica estilos ao n-ésimo filho de um elemento pai.</li>
+        <li><code>:first-child</code> - Aplica estilos ao primeiro filho de um elemento pai.</li>
+        <li><code>:last-child</code> - Aplica estilos ao último filho de um elemento pai.</li>
+        <li><code>:not(selector)</code> - Aplica estilos a elementos que não correspondem ao seletor especificado.</li>
+        </ul>
+    </div>
+    <li>
+        <h1>Página de Links:</h1>
+        <a href="links.html">PÁGINA DE LINKS</a>
+    </li>
+
+</body>
+</html>
